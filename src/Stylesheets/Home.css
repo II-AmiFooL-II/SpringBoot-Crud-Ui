@@ -1,0 +1,28 @@
+
+.Home{
+  height: 80%;
+  width: 90%;
+  margin-top: 10vh; 
+  margin-bottom: 9.40777777vh;
+  margin-left: 3.5vw;
+  border: 10px solid #213a7c;
+  padding-inline: 10px;
+  padding-block: 10px;
+  overflow: hidden;
+}
+
+.Box{
+  height: 100%;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+.Nav{
+}
+
+.content{
+  overflow: hidden;
+  border: 2px solid grey;
+  border-radius: 5px;
+}

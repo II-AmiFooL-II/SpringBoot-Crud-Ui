@@ -1,0 +1,105 @@
+.SimulateContainer{
+    min-width: 100%;
+    display: inline-flex;
+    padding: 15px;
+}
+
+.SimulateRequest{
+    flex: 60%;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.SimulateResponse{
+    flex: 40%;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.SimulateRequestType{
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+    min-width: 20%;
+    background-color: rgba(224, 224, 224, 1);
+    cursor: default;
+}
+
+.SimulateRequestlink{
+    border: 10px;
+    padding: 10px;
+    background-color: rgba(224, 224, 224, 1);
+    border: 2px solid snow;
+    min-width: 70%;
+    cursor: default;
+}
+
+.SimulateRequestUrl{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 70%;
+}
+
+.SimulateRequestButton{
+    padding: 10px;
+    background-color: #4E5AC7;
+    background-blend-mode: lighten;
+    color: white;
+    border-radius: 5px;
+    min-width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.SimulateRequestButton:hover{
+    filter: brightness(65%);
+}
+
+.forms{
+    margin-top: 10px;
+}
+
+.txtbox{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.forminput{
+    padding-right: 5px;
+}
+
+.SimulateResponseBody{
+    align-items: center;
+    justify-content: center;
+}
+
+.ResponseStatus{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgba(224, 224, 224, 1);
+    border: 2px solid snow;
+    cursor: default;
+    width: 10%;
+}
+
+.ResponseWord{
+    border: 10px;
+    width: 20%;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgba(224, 224, 224, 1);
+    border: 2px solid snow;
+    cursor: default;
+}
+
+.ResponseData{
+    background-color:#F8F1E6;
+    margin-top: 5px;
+    border: 2px solid snow;
+    padding: 10px;
+    padding-left: 20px;
+    overflow-y: scroll;
+    min-height: 380px;
+}

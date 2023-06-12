@@ -1,0 +1,26 @@
+.container{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+.ui {
+  padding: 0px;
+  margin: 16px;
+}
+
+
+.li {
+  display: inline-block;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 15px 15px 15px 15px;
+  background: #1e7c9a;
+  margin-left: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.li:hover {
+  background: #3b3b3b;
+}
+
